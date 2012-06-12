@@ -5,7 +5,7 @@
 		function __construct(){}
 
 		public $nome;
-		public $emial;
+		public $email;
 		public $idade;
 		public $sexo;
 		public $cidade;
@@ -15,7 +15,7 @@
 		public $freqntJogosSB;
 		public $naoGostaJogos;
 		public $naoFreqntJogos;
-		public $facilidadeCompraIgresso;
+		public $facilidadeCompraIngresso;
 		public $avisadoJogosCidade;
 		public $avisadoJogosFora;
 
