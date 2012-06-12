@@ -126,7 +126,7 @@
 					return $ret;
 				}
 			}catch(Exception $e){
-				$banco = new Banco();
+				mysql_close($banco->AbreConexao());
 				return 0;
 			}
 		}
